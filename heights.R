@@ -1,3 +1,3 @@
 library("dslabs")
 data(heights)
-head(heights)
+head(heights, 10)
