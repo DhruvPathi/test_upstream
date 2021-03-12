@@ -6,3 +6,4 @@ head(heights, 10)
 heights %>% ggplot(aes(height, color = sex)) + geom_density()
 
 ggsave("density_plot.png")
+ggsave("density_plot.pdf")
